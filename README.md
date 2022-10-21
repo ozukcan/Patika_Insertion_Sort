@@ -29,11 +29,39 @@ C-Time Complexity:
 Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer?
 `-Sıralandıktan sonra 18 orta kısımda olduğu için average case kapsamındadır.`
  
-##[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+## [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
  `-[7|,3,5,8,2,9,4,15,6]
   -[3,7|,5,8,2,9,4,15,6]
   -[3,5,7|,8,2,9,4,15,6]
   -[3,5,7,8|,2,9,4,15,6]`
+  
+ # Merge Sort ödevi
+      16,21,11,8,12,22-->8,12,22;
+      16,21,11,8,12,22-->16,21,11;
+      
+      8,12,22-->8;
+      8,12,22-->12,22;
+
+      16,21,11-->16;
+      16,21,11-->21,11;
+      
+      21,11-->11,21;
+      16-->.16;
+      8-->8;
+      12,22-->12,22;
+      8-->8,12,22;
+      12,22-->8,12,22;
+      16-->11,16,21;
+      11,21-->11,16,21;
+      11,16,21-->8,11,12,16,21,22;
+      8,12,22-->8,11,12,16,21,22;
+
+Toplamda 6 işlemde bitiriyoruz.
+
+B - Big-O gösterimini yazınız
+O(nlogn) --> O(6log6)
+
+ 
   
 [Patika.dev](https://www.patika.dev/tr)
 [BenimPatikam](https://app.patika.dev/sparkus)

@@ -1,7 +1,5 @@
 # Patika_Insertion_Sort
 
-# Patika_Insertion_Sort
-
 Proje
 [22,27,16,2,18,6] -> Insertion Sort
 
@@ -36,3 +34,6 @@ Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer?
   -[3,7|,5,8,2,9,4,15,6]
   -[3,5,7|,8,2,9,4,15,6]
   -[3,5,7,8|,2,9,4,15,6]`
+  
+[Patika.dev](https://www.patika.dev/tr)
+[BenimPatikam](https://app.patika.dev/sparkus)
